@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh; 
+    font-family: sans-serif;       
+}
+.header{
+    height: 67vh;
+    width: 100vw;
+    background-color: #FFCD9E;
+    display: flex; 
+    justify-content: space-between;          
+}
+.box1{  
+    padding-top: 2.8rem;
+    margin-left: 5.5rem;
+    width: 45%;
+    margin-top: 0.8rem;
+    margin-bottom: 2rem;
+    text-align: justify;   
+}
+.box2{ 
+  margin-right: 1.8rem;
+  margin-top: 0.8rem;
+  margin-bottom: 2rem;
+}
+.box3{
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    text-align: left;
+    padding-right: 7rem;
+    font-size: 1.2vw;   
+}
+.box4{
+    text-align: right;
+    font-size: 1.2vw;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    padding-left: 7rem;       
+}
+
+.footer{
+    height: 33vh;
+    width: 100vw;
+    background-color: #282828;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box2 img{
+    display: block;
+    width: 100%;
+}
+h1{
+    font-size:2.5vw;
+    font-weight: 700;
+    
+}
+h3{
+    font-size: 1.5vw;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+#para1{
+    font-size: 2vw;
+    font-weight: 400;
+    text-align: justify;
+     margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+#para2{
+    color: white;
+    margin-bottom: 8rem;
+    font-size: 1.2vw;    
+}
+button{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 0.7rem;
+    padding-top: 0.7rem;
+    font-size: 1.5vw;
+
+}
+input{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.5vw;
+    padding-right: 4rem;
+    padding-top: 0.7rem;  
+    padding-bottom: 0.7rem;
+    border: 2px double black;
+
+}
+::placeholder{
+    font-size: 1em;
+    font-weight: 400;
+}
+li{
+    list-style: none;
+    line-height: 1.6;
+    color: white
+    
+    
+}
+@media (max-width:500px){
+    .box2 img{
+        width:100px;
+        height: 300px;
+    }
+    h1{
+       font-size: 4vw;
+    }
+    #para1{
+        font-size: 3vw;
+    }
+    
+    h3 {
+        font-size:3vw;
+    }
+    #para2{
+        font-size:2.5vw;
+    }
+    li{
+        font-size: 2vw;
+    }
+    ::placeholder{
+        font-size: 0.5rem;
+        font-weight: 400;
+    }
+    
+    
+}
+
+
+    
+
+    
+
+
